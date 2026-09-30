@@ -1,0 +1,4886 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+
+  <title>
+    विशाल ई-रिक्शा रिपेयरिंग सेंटर | E-Rickshaw Repair & EV Spare Parts
+  </title>
+
+  <meta
+    name="description"
+    content="विशाल ई-रिक्शा रिपेयरिंग सेंटर, सिट पार्क खोड़ा कॉलोनी में E-Rickshaw और E-Scooty Repairing तथा EV Spare Parts के लिए संपर्क करें।"
+  />
+
+  <meta
+    name="keywords"
+    content="E Rickshaw Repair Khoda Colony, E Rickshaw Repair Khoda, E Rickshaw Parts Khoda Colony, E Rickshaw Spare Parts, Electric Scooter Repair Khoda, EV Spare Parts, E Rickshaw Motor, E Rickshaw Controller, E Rickshaw Throttle, E Rickshaw Lock"
+  />
+
+  <meta name="theme-color" content="#0b1728" />
+
+  <style>
+    :root {
+      --green: #16a34a;
+      --green-dark: #087f3b;
+      --green-light: #dcfce7;
+      --navy: #071525;
+      --navy-2: #0b1c30;
+      --yellow: #facc15;
+      --orange: #f97316;
+      --white: #ffffff;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-300: #cbd5e1;
+      --gray-500: #64748b;
+      --gray-600: #475569;
+      --gray-700: #334155;
+      --gray-900: #0f172a;
+      --red: #dc2626;
+      --shadow: 0 12px 35px rgba(15, 23, 42, 0.09);
+      --shadow-lg: 0 20px 55px rgba(15, 23, 42, 0.15);
+      --radius: 18px;
+      --max: 1240px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+      background: var(--gray-50);
+      color: var(--gray-900);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 32px));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 75px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 42px;
+    }
+
+    .section-title .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 13px;
+      border-radius: 999px;
+      background: var(--green-light);
+      color: var(--green-dark);
+      font-weight: 800;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    .section-title h2 {
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: var(--gray-500);
+      max-width: 720px;
+      margin: auto;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: white;
+      font-size: 13px;
+    }
+
+    .topbar-inner {
+      min-height: 38px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .topbar a {
+      font-weight: 800;
+      color: #bbf7d0;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(15px);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .nav {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-width: 240px;
+    }
+
+    .brand-logo {
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-size: 23px;
+      background: linear-gradient(135deg, var(--green), #22c55e);
+      box-shadow: 0 8px 22px rgba(22,163,74,.25);
+      flex: 0 0 auto;
+    }
+
+    .brand-text strong {
+      display: block;
+      line-height: 1.2;
+      font-size: 15px;
+    }
+
+    .brand-text span {
+      color: var(--gray-500);
+      font-size: 11px;
+      display: block;
+      margin-top: 3px;
+    }
+
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      flex: 1;
+    }
+
+    .desktop-nav a {
+      padding: 9px 11px;
+      border-radius: 10px;
+      font-weight: 700;
+      color: var(--gray-600);
+      font-size: 14px;
+    }
+
+    .desktop-nav a:hover {
+      background: var(--green-light);
+      color: var(--green-dark);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 7px;
+      align-items: center;
+    }
+
+    .icon-btn,
+    .menu-btn {
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--gray-200);
+      background: white;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+    }
+
+    .menu-btn {
+      display: none;
+      font-size: 21px;
+    }
+
+    .btn {
+      border: 0;
+      min-height: 44px;
+      padding: 10px 17px;
+      border-radius: 12px;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: .2s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      color: white;
+      background: var(--green);
+      box-shadow: 0 8px 20px rgba(22,163,74,.2);
+    }
+
+    .btn-primary:hover {
+      background: var(--green-dark);
+    }
+
+    .btn-dark {
+      color: white;
+      background: var(--navy);
+    }
+
+    .btn-light {
+      color: var(--gray-800);
+      background: white;
+      border: 1px solid var(--gray-200);
+    }
+
+    .btn-yellow {
+      color: #422006;
+      background: var(--yellow);
+    }
+
+    .btn-whatsapp {
+      color: white;
+      background: #25d366;
+    }
+
+    .btn-danger {
+      color: white;
+      background: var(--red);
+    }
+
+    .btn-sm {
+      min-height: 38px;
+      padding: 8px 12px;
+      font-size: 13px;
+      border-radius: 10px;
+    }
+
+    .mobile-menu {
+      display: none;
+      border-top: 1px solid var(--gray-200);
+      background: white;
+      padding: 12px 16px 18px;
+    }
+
+    .mobile-menu.open {
+      display: block;
+    }
+
+    .mobile-menu a {
+      display: block;
+      padding: 13px 9px;
+      font-weight: 800;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .hero {
+      background:
+        radial-gradient(circle at 10% 10%, rgba(34,197,94,.16), transparent 32%),
+        radial-gradient(circle at 90% 20%, rgba(250,204,21,.10), transparent 28%),
+        linear-gradient(135deg, #071525 0%, #0a2238 55%, #0c2e3b 100%);
+      color: white;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      right: -220px;
+      bottom: -280px;
+      background: rgba(34,197,94,.12);
+      border-radius: 50%;
+      filter: blur(10px);
+    }
+
+    .hero-grid {
+      min-height: 650px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      gap: 55px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(34,197,94,.12);
+      border: 1px solid rgba(134,239,172,.25);
+      color: #bbf7d0;
+      padding: 8px 13px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 5vw, 64px);
+      line-height: 1.06;
+      letter-spacing: -1.5px;
+      max-width: 780px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #4ade80;
+    }
+
+    .hero p {
+      color: #cbd5e1;
+      font-size: 17px;
+      max-width: 690px;
+      margin-bottom: 27px;
+    }
+
+    .hero-phone {
+      font-size: clamp(25px, 4vw, 38px);
+      font-weight: 900;
+      letter-spacing: 1px;
+      margin: 20px 0;
+    }
+
+    .hero-location {
+      color: #cbd5e1;
+      margin-bottom: 27px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .hero-visual {
+      min-height: 430px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 30px;
+      background:
+        linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.025));
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+    }
+
+    .ev-illustration {
+      width: min(90%, 430px);
+      aspect-ratio: 1/1;
+      position: relative;
+    }
+
+    .ev-glow {
+      position: absolute;
+      width: 270px;
+      height: 270px;
+      border-radius: 50%;
+      background: rgba(34,197,94,.22);
+      filter: blur(40px);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .vehicle {
+      position: absolute;
+      width: 280px;
+      height: 170px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .vehicle-roof {
+      position: absolute;
+      left: 50px;
+      top: 15px;
+      width: 180px;
+      height: 75px;
+      background: #f8fafc;
+      border-radius: 65px 65px 10px 10px;
+      transform: skewX(-6deg);
+    }
+
+    .vehicle-body {
+      position: absolute;
+      left: 25px;
+      top: 75px;
+      width: 235px;
+      height: 65px;
+      background: #22c55e;
+      border-radius: 22px 30px 12px 12px;
+      box-shadow: 0 18px 25px rgba(0,0,0,.25);
+    }
+
+    .vehicle-front {
+      position: absolute;
+      right: 0;
+      top: 88px;
+      width: 42px;
+      height: 50px;
+      background: #15803d;
+      border-radius: 5px 20px 8px 5px;
+    }
+
+    .wheel {
+      position: absolute;
+      width: 47px;
+      height: 47px;
+      background: #0f172a;
+      border: 7px solid #64748b;
+      border-radius: 50%;
+      bottom: 0;
+    }
+
+    .wheel.one {
+      left: 43px;
+    }
+
+    .wheel.two {
+      right: 37px;
+    }
+
+    .headlight {
+      position: absolute;
+      right: 6px;
+      top: 99px;
+      width: 12px;
+      height: 16px;
+      background: #fef08a;
+      border-radius: 4px;
+      box-shadow: 0 0 20px #fef08a;
+    }
+
+    .hero-stats {
+      position: absolute;
+      bottom: 22px;
+      left: 22px;
+      right: 22px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 8px;
+    }
+
+    .hero-stat {
+      padding: 13px;
+      border-radius: 13px;
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,.08);
+      text-align: center;
+    }
+
+    .hero-stat strong {
+      display: block;
+      color: #86efac;
+      font-size: 20px;
+    }
+
+    .hero-stat span {
+      font-size: 11px;
+      color: #cbd5e1;
+    }
+
+    .trust-strip {
+      background: white;
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+    }
+
+    .trust-item {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-right: 1px solid var(--gray-200);
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .trust-item:last-child {
+      border: 0;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 17px;
+    }
+
+    .service-card {
+      background: white;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: 0 5px 20px rgba(15,23,42,.035);
+      transition: .25s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+      border-color: #bbf7d0;
+    }
+
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 15px;
+      background: var(--green-light);
+      display: grid;
+      place-items: center;
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .service-card p {
+      color: var(--gray-500);
+      font-size: 14px;
+      min-height: 66px;
+    }
+
+    .service-actions {
+      display: flex;
+      gap: 7px;
+      margin-top: 16px;
+    }
+
+    .service-actions .btn {
+      flex: 1;
+    }
+
+    .catalog-section {
+      background: #eefbf2;
+    }
+
+    .catalog-tools {
+      background: white;
+      border: 1px solid var(--gray-200);
+      border-radius: 17px;
+      padding: 15px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: 1.4fr .65fr .65fr auto;
+      gap: 10px;
+    }
+
+    .field,
+    .select,
+    .textarea {
+      width: 100%;
+      border: 1px solid var(--gray-200);
+      border-radius: 11px;
+      padding: 11px 13px;
+      outline: none;
+      background: white;
+      color: var(--gray-900);
+    }
+
+    .field:focus,
+    .select:focus,
+    .textarea:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(22,163,74,.1);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 17px;
+    }
+
+    .product-card {
+      background: white;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(15,23,42,.035);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-image {
+      height: 190px;
+      background:
+        radial-gradient(circle at 50% 35%, rgba(34,197,94,.15), transparent 45%),
+        linear-gradient(145deg, #f8fafc, #e2e8f0);
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .product-image .part-icon {
+      font-size: 65px;
+    }
+
+    .demo-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #fff7ed;
+      color: #9a3412;
+      border: 1px solid #fed7aa;
+      padding: 5px 8px;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 900;
+    }
+
+    .product-body {
+      padding: 17px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .product-category {
+      color: var(--green-dark);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .product-card h3 {
+      font-size: 17px;
+      margin: 5px 0;
+    }
+
+    .product-desc {
+      font-size: 13px;
+      color: var(--gray-500);
+      min-height: 43px;
+    }
+
+    .product-price {
+      font-weight: 900;
+      font-size: 18px;
+      margin: 13px 0 3px;
+    }
+
+    .availability {
+      color: var(--gray-500);
+      font-size: 12px;
+      margin-bottom: 13px;
+    }
+
+    .product-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      margin-top: auto;
+    }
+
+    .product-actions .full {
+      grid-column: 1 / -1;
+    }
+
+    .categories {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .category-chip {
+      flex: 0 0 auto;
+      padding: 9px 13px;
+      border: 1px solid var(--gray-200);
+      background: white;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .category-chip.active {
+      background: var(--green);
+      color: white;
+      border-color: var(--green);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .about-card {
+      background: var(--navy);
+      color: white;
+      padding: 38px;
+      border-radius: 28px;
+      min-height: 350px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about-card::before {
+      content: "⚡";
+      position: absolute;
+      font-size: 220px;
+      right: -15px;
+      bottom: -60px;
+      opacity: .06;
+    }
+
+    .about-card h3 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .about-card p {
+      color: #cbd5e1;
+    }
+
+    .check-list {
+      display: grid;
+      gap: 13px;
+      margin-top: 22px;
+    }
+
+    .check-list div {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-weight: 750;
+    }
+
+    .check-list span {
+      color: var(--green);
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .contact-section {
+      background: var(--navy);
+      color: white;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 35px;
+    }
+
+    .contact-info {
+      padding: 25px;
+      border-radius: 22px;
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.1);
+    }
+
+    .contact-info h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .contact-line {
+      display: flex;
+      gap: 13px;
+      margin: 18px 0;
+    }
+
+    .contact-line .icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 11px;
+      display: grid;
+      place-items: center;
+      background: rgba(34,197,94,.12);
+      color: #86efac;
+      flex: 0 0 auto;
+    }
+
+    .contact-line small {
+      color: #94a3b8;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .contact-line strong {
+      font-size: 15px;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 22px;
+    }
+
+    .map-placeholder {
+      min-height: 430px;
+      border-radius: 22px;
+      background:
+        linear-gradient(rgba(8,30,45,.8), rgba(8,30,45,.8)),
+        repeating-linear-gradient(
+          45deg,
+          #183346 0px,
+          #183346 20px,
+          #1c3e52 20px,
+          #1c3e52 22px
+        );
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,.1);
+    }
+
+    .map-pin {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      background: rgba(34,197,94,.15);
+      display: grid;
+      place-items: center;
+      font-size: 30px;
+      margin: 0 auto 15px;
+    }
+
+    .faq-list {
+      max-width: 850px;
+      margin: auto;
+      display: grid;
+      gap: 10px;
+    }
+
+    .faq {
+      background: white;
+      border: 1px solid var(--gray-200);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .faq button {
+      width: 100%;
+      border: 0;
+      background: white;
+      text-align: left;
+      padding: 17px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      font-weight: 850;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0 17px 17px;
+      color: var(--gray-500);
+    }
+
+    .faq.open .faq-answer {
+      display: block;
+    }
+
+    .review-box {
+      max-width: 750px;
+      margin: auto;
+      background: white;
+      border: 1px dashed var(--gray-300);
+      border-radius: 20px;
+      text-align: center;
+      padding: 35px;
+    }
+
+    .footer {
+      background: #040d18;
+      color: white;
+      padding: 45px 0 95px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      gap: 40px;
+    }
+
+    .footer h3 {
+      margin-bottom: 13px;
+    }
+
+    .footer p,
+    .footer a {
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 7px;
+    }
+
+    .copyright {
+      border-top: 1px solid rgba(255,255,255,.08);
+      margin-top: 35px;
+      padding-top: 20px;
+      color: #64748b;
+      font-size: 13px;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1100;
+      background: rgba(255,255,255,.97);
+      backdrop-filter: blur(15px);
+      border-top: 1px solid var(--gray-200);
+      display: none;
+      grid-template-columns: repeat(4,1fr);
+      padding: 7px 5px calc(7px + env(safe-area-inset-bottom));
+    }
+
+    .bottom-nav a,
+    .bottom-nav button {
+      border: 0;
+      background: transparent;
+      text-align: center;
+      color: var(--gray-600);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .bottom-nav span {
+      display: block;
+      font-size: 19px;
+      line-height: 22px;
+    }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(2,8,23,.72);
+      backdrop-filter: blur(4px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+    }
+
+    .modal-overlay.show {
+      display: flex;
+    }
+
+    .modal {
+      width: min(700px, 100%);
+      max-height: 92vh;
+      overflow: auto;
+      background: white;
+      border-radius: 22px;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .modal.large {
+      width: min(1050px, 100%);
+    }
+
+    .modal-header {
+      position: sticky;
+      top: 0;
+      z-index: 3;
+      background: white;
+      border-bottom: 1px solid var(--gray-200);
+      padding: 17px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .close-btn {
+      border: 0;
+      background: var(--gray-100);
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+
+    .modal-body {
+      padding: 22px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px;
+    }
+
+    .form-group {
+      display: grid;
+      gap: 6px;
+    }
+
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .textarea {
+      min-height: 105px;
+      resize: vertical;
+    }
+
+    .form-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .product-detail {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 25px;
+    }
+
+    .detail-image {
+      min-height: 330px;
+      border-radius: 18px;
+      background: linear-gradient(145deg,#f8fafc,#e2e8f0);
+      display: grid;
+      place-items: center;
+      font-size: 100px;
+    }
+
+    .detail-content h2 {
+      font-size: 31px;
+      margin: 6px 0 12px;
+    }
+
+    .detail-price {
+      font-size: 25px;
+      font-weight: 900;
+      margin: 17px 0 5px;
+    }
+
+    .spec-list {
+      display: grid;
+      gap: 7px;
+      margin: 18px 0;
+    }
+
+    .spec-list div {
+      padding: 10px;
+      background: var(--gray-50);
+      border-radius: 9px;
+      display: grid;
+      grid-template-columns: .7fr 1.3fr;
+      font-size: 13px;
+    }
+
+    .toast-container {
+      position: fixed;
+      right: 15px;
+      top: 90px;
+      z-index: 3000;
+      display: grid;
+      gap: 8px;
+      width: min(380px, calc(100% - 30px));
+    }
+
+    .toast {
+      background: var(--navy);
+      color: white;
+      padding: 14px 15px;
+      border-radius: 13px;
+      box-shadow: var(--shadow-lg);
+      animation: slideIn .25s ease;
+      border-left: 4px solid var(--green);
+      font-size: 13px;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .admin-layout {
+      display: grid;
+      grid-template-columns: 210px 1fr;
+      min-height: 500px;
+    }
+
+    .admin-sidebar {
+      background: var(--navy);
+      color: white;
+      padding: 15px;
+    }
+
+    .admin-sidebar button {
+      width: 100%;
+      background: transparent;
+      color: #cbd5e1;
+      border: 0;
+      padding: 11px;
+      border-radius: 9px;
+      text-align: left;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .admin-sidebar button.active,
+    .admin-sidebar button:hover {
+      background: rgba(34,197,94,.13);
+      color: #86efac;
+    }
+
+    .admin-main {
+      padding: 22px;
+      overflow: auto;
+    }
+
+    .admin-cards {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .admin-card {
+      padding: 18px;
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 14px;
+    }
+
+    .admin-card strong {
+      font-size: 25px;
+      display: block;
+    }
+
+    .admin-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .admin-table th,
+    .admin-table td {
+      padding: 11px 9px;
+      border-bottom: 1px solid var(--gray-200);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .status {
+      display: inline-flex;
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: var(--gray-100);
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .empty {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--gray-500);
+      background: white;
+      border: 1px dashed var(--gray-300);
+      border-radius: 16px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .text-green {
+      color: var(--green);
+    }
+
+    .notice {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      color: #854d0e;
+      padding: 12px 14px;
+      border-radius: 11px;
+      font-size: 13px;
+      margin: 12px 0;
+    }
+
+    @media (max-width: 1050px) {
+      .desktop-nav {
+        display: none;
+      }
+
+      .menu-btn {
+        display: grid;
+      }
+
+      .header-actions .btn {
+        display: none;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        padding: 70px 0;
+      }
+
+      .hero-visual {
+        min-height: 360px;
+      }
+
+      .service-grid,
+      .product-grid {
+        grid-template-columns: repeat(3,1fr);
+      }
+
+      .catalog-tools {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .container {
+        width: min(var(--max), calc(100% - 22px));
+      }
+
+      .topbar-inner {
+        justify-content: center;
+      }
+
+      .topbar .location-mini {
+        display: none;
+      }
+
+      .brand {
+        min-width: 0;
+        flex: 1;
+      }
+
+      .brand-text strong {
+        font-size: 13px;
+      }
+
+      .brand-text span {
+        font-size: 9px;
+      }
+
+      .hero-grid {
+        min-height: auto;
+        padding: 55px 0;
+        gap: 30px;
+      }
+
+      .hero h1 {
+        font-size: 39px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .hero-phone {
+        font-size: 28px;
+      }
+
+      .hero-visual {
+        min-height: 330px;
+      }
+
+      .trust-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .trust-item {
+        border-bottom: 1px solid var(--gray-200);
+      }
+
+      .service-grid,
+      .product-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .catalog-tools {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 55px 0;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-group.full {
+        grid-column: auto;
+      }
+
+      .product-detail {
+        grid-template-columns: 1fr;
+      }
+
+      .detail-image {
+        min-height: 240px;
+      }
+
+      .admin-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .admin-sidebar {
+        display: flex;
+        overflow-x: auto;
+        gap: 5px;
+      }
+
+      .admin-sidebar button {
+        flex: 0 0 auto;
+        width: auto;
+        white-space: nowrap;
+      }
+
+      .admin-cards {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .bottom-nav {
+        display: grid;
+      }
+
+      .footer {
+        padding-bottom: 100px;
+      }
+
+      .header-actions .icon-btn {
+        display: none;
+      }
+
+      .hero-actions .btn {
+        flex: 1 1 145px;
+      }
+    }
+
+    @media (max-width: 470px) {
+      .service-grid,
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-stats {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .hero-stat {
+        padding: 9px 5px;
+      }
+
+      .hero-stat strong {
+        font-size: 16px;
+      }
+
+      .hero-stat span {
+        font-size: 9px;
+      }
+
+      .trust-item {
+        padding: 14px 8px;
+        font-size: 12px;
+      }
+
+      .brand-logo {
+        width: 39px;
+        height: 39px;
+      }
+
+      .admin-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <!-- LocalBusiness structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "विशाल ई-रिक्शा रिपेयरिंग सेंटर",
+    "alternateName": "Vishal E-Rickshaw Repairing Center",
+    "description": "E-Rickshaw repair, E-Scooty repair and EV spare parts.",
+    "telephone": "+918376959144",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sit Park, Khoda Colony, Near CNG Pump, Welding Shop के पास",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="location-mini">
+        📍 Sit Park, Khoda Colony, CNG Pump के पास
+      </span>
+
+      <span>
+        📞
+        <a href="tel:+918376959144">8376959144</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+
+      <a class="brand" href="#home">
+        <div class="brand-logo">⚡</div>
+
+        <div class="brand-text">
+          <strong>विशाल ई-रिक्शा रिपेयरिंग सेंटर</strong>
+          <span>Vishal E-Rickshaw Repairing Center</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#products">Spare Parts</a>
+        <a href="#order">Order Request</a>
+        <a href="#contact">Contact</a>
+        <a href="#" onclick="openTrackModal(); return false;">Track Order</a>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          class="btn btn-primary"
+          onclick="callShop()"
+        >
+          📞 Call Now
+        </button>
+
+        <button
+          class="btn btn-whatsapp"
+          onclick="whatsappShop()"
+        >
+          WhatsApp
+        </button>
+
+        <button
+          class="icon-btn"
+          onclick="openCart()"
+          aria-label="Cart"
+        >
+          🛒
+        </button>
+
+        <button
+          class="menu-btn"
+          onclick="toggleMobileMenu()"
+          aria-label="Menu"
+        >
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="#home" onclick="closeMobileMenu()">Home</a>
+      <a href="#about" onclick="closeMobileMenu()">About Us</a>
+      <a href="#services" onclick="closeMobileMenu()">Services</a>
+      <a href="#products" onclick="closeMobileMenu()">Spare Parts</a>
+      <a href="#order" onclick="closeMobileMenu()">Order Request</a>
+      <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+      <a href="#" onclick="openTrackModal(); closeMobileMenu(); return false;">Track Order</a>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;">
+        <button class="btn btn-primary" onclick="callShop()">📞 Call</button>
+        <button class="btn btn-whatsapp" onclick="whatsappShop()">WhatsApp</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+
+        <div>
+          <div class="hero-badge">
+            ⚡ EV Repair & Spare Parts
+          </div>
+
+          <h1>
+            ई-रिक्शा रिपेयरिंग और
+            <span>सभी इलेक्ट्रिक व्हीकल पार्ट्स</span>
+            एक ही जगह
+          </h1>
+
+          <p>
+            विशाल ई-रिक्शा रिपेयरिंग सेंटर —
+            ई-रिक्शा, ई-स्कूटी रिपेयरिंग और EV Spare Parts
+            के लिए आपकी स्थानीय दुकान।
+          </p>
+
+          <div class="hero-phone">
+            <a href="tel:+918376959144">8376959144</a>
+          </div>
+
+          <div class="hero-location">
+            📍 Sit Park, Khoda Colony,
+            Near CNG Pump, Welding Shop के पास
+          </div>
+
+          <div class="hero-actions">
+            <button
+              class="btn btn-primary"
+              onclick="scrollToOrder()"
+            >
+              🛒 Part Enquiry
+            </button>
+
+            <button
+              class="btn btn-light"
+              onclick="callShop()"
+            >
+              📞 Call Now
+            </button>
+
+            <button
+              class="btn btn-whatsapp"
+              onclick="whatsappShop()"
+            >
+              💬 WhatsApp
+            </button>
+
+            <button
+              class="btn btn-yellow"
+              onclick="getDirections()"
+            >
+              📍 Get Directions
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="ev-illustration">
+            <div class="ev-glow"></div>
+
+            <div class="vehicle">
+              <div class="vehicle-roof"></div>
+              <div class="vehicle-body"></div>
+              <div class="vehicle-front"></div>
+              <div class="headlight"></div>
+              <div class="wheel one"></div>
+              <div class="wheel two"></div>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <strong>EV</strong>
+              <span>Repair</span>
+            </div>
+
+            <div class="hero-stat">
+              <strong>Parts</strong>
+              <span>Enquiry</span>
+            </div>
+
+            <div class="hero-stat">
+              <strong>Call</strong>
+              <span>8376959144</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip">
+      <div class="container trust-grid">
+
+        <div class="trust-item">
+          ⚡ E-Rickshaw Repair
+        </div>
+
+        <div class="trust-item">
+          🔧 Electrical Work
+        </div>
+
+        <div class="trust-item">
+          🔋 EV Spare Parts
+        </div>
+
+        <div class="trust-item">
+          📱 WhatsApp Enquiry
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+
+        <div class="section-title">
+          <div class="eyebrow">🔧 हमारी सेवाएँ</div>
+
+          <h2>
+            EV Repair & Service
+          </h2>
+
+          <p>
+            E-Rickshaw और E-Scooty से संबंधित repair,
+            electrical और spare-parts enquiry के लिए संपर्क करें।
+          </p>
+        </div>
+
+        <div id="serviceGrid" class="service-grid"></div>
+
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section catalog-section">
+      <div class="container">
+
+        <div class="section-title">
+          <div class="eyebrow">🛒 Spare Parts</div>
+
+          <h2>
+            EV Spare Parts Catalogue
+          </h2>
+
+          <p>
+            नीचे दिए गए products demo/sample हैं।
+            वास्तविक price, stock, brand और specifications के लिए दुकान से संपर्क करें।
+          </p>
+        </div>
+
+        <div class="catalog-tools">
+
+          <input
+            id="productSearch"
+            class="field"
+            type="search"
+            placeholder="Search E-Rickshaw Parts, Motor, Controller, Throttle..."
+            oninput="renderProducts()"
+          />
+
+          <select
+            id="categoryFilter"
+            class="select"
+            onchange="renderProducts()"
+          >
+            <option value="">All Categories</option>
+          </select>
+
+          <select
+            id="availabilityFilter"
+            class="select"
+            onchange="renderProducts()"
+          >
+            <option value="">Availability</option>
+            <option value="contact">Contact Shop</option>
+          </select>
+
+          <button
+            class="btn btn-dark"
+            onclick="resetFilters()"
+          >
+            Reset
+          </button>
+
+        </div>
+
+        <div id="categoryChips" class="categories"></div>
+
+        <div id="productGrid" class="product-grid"></div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+
+        <div>
+          <div class="section-title" style="text-align:left;margin-bottom:20px;">
+            <div class="eyebrow">हमारे बारे में</div>
+
+            <h2>
+              आपका स्थानीय EV Repair & Spare Parts Center
+            </h2>
+
+            <p>
+              विशाल ई-रिक्शा रिपेयरिंग सेंटर एक स्थानीय
+              Electric Vehicle service और spare-parts business है,
+              जहाँ E-Rickshaw और E-Scooty से संबंधित repair services
+              और विभिन्न spare parts की enquiry की जा सकती है।
+            </p>
+          </div>
+
+          <div class="check-list">
+            <div>
+              <span>✓</span>
+              E-Rickshaw Repair
+            </div>
+
+            <div>
+              <span>✓</span>
+              E-Scooty Repair
+            </div>
+
+            <div>
+              <span>✓</span>
+              EV Spare Parts
+            </div>
+
+            <div>
+              <span>✓</span>
+              Electrical Troubleshooting
+            </div>
+
+            <div>
+              <span>✓</span>
+              Motor / Controller Related Service
+            </div>
+
+            <div>
+              <span>✓</span>
+              Local Customer Support
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <h3>विशाल ई-रिक्शा रिपेयरिंग सेंटर</h3>
+
+          <p>
+            E-Rickshaw, E-Scooty और अन्य electric vehicle
+            repair तथा spare-parts enquiries के लिए दुकान से संपर्क करें।
+          </p>
+
+          <div style="margin-top:28px;">
+            <div style="color:#94a3b8;font-size:12px;">
+              Owner
+            </div>
+
+            <div style="font-size:24px;font-weight:900;">
+              Vishal
+            </div>
+          </div>
+
+          <div style="margin-top:25px;">
+            <div style="color:#94a3b8;font-size:12px;">
+              Phone
+            </div>
+
+            <a
+              href="tel:+918376959144"
+              style="font-size:27px;font-weight:900;color:#86efac;"
+            >
+              8376959144
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" style="background:#f1f5f9;">
+      <div class="container">
+
+        <div class="section-title">
+          <div class="eyebrow">❓ FAQ</div>
+          <h2>अक्सर पूछे जाने वाले सवाल</h2>
+        </div>
+
+        <div class="faq-list">
+
+          <div class="faq">
+            <button onclick="toggleFaq(this)">
+              क्या यहाँ E-Rickshaw की repairing होती है?
+              <span>＋</span>
+            </button>
+
+            <div class="faq-answer">
+              हाँ, E-Rickshaw की repairing और
+              electrical-related services उपलब्ध हैं।
+            </div>
+          </div>
+
+          <div class="faq">
+            <button onclick="toggleFaq(this)">
+              क्या E-Scooty के parts मिलते हैं?
+              <span>＋</span>
+            </button>
+
+            <div class="faq-answer">
+              उपलब्ध parts और stock के लिए दुकान पर संपर्क करें।
+            </div>
+          </div>
+
+          <div class="faq">
+            <button onclick="toggleFaq(this)">
+              क्या E-Rickshaw motor मिलती है?
+              <span>＋</span>
+            </button>
+
+            <div class="faq-answer">
+              Motor की availability और current price के लिए संपर्क करें।
+            </div>
+          </div>
+
+          <div class="faq">
+            <button onclick="toggleFaq(this)">
+              क्या Controller मिलता है?
+              <span>＋</span>
+            </button>
+
+            <div class="faq-answer">
+              Controller और अन्य EV electrical parts की availability
+              के लिए संपर्क करें।
+            </div>
+          </div>
+
+          <div class="faq">
+            <button onclick="toggleFaq(this)">
+              क्या WhatsApp पर enquiry कर सकते हैं?
+              <span>＋</span>
+            </button>
+
+            <div class="faq-answer">
+              हाँ, WhatsApp या phone के माध्यम से enquiry की जा सकती है।
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section">
+      <div class="container">
+
+        <div class="section-title">
+          <div class="eyebrow">⭐ Customer Reviews</div>
+          <h2>Customer Reviews</h2>
+        </div>
+
+        <div class="review-box">
+          <div style="font-size:45px;margin-bottom:12px;">⭐</div>
+
+          <h3>
+            Customer reviews coming soon.
+          </h3>
+
+          <p style="color:var(--gray-500);margin-top:7px;">
+            वास्तविक customer reviews केवल admin द्वारा
+            customer-provided information के आधार पर जोड़े जाएंगे।
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LOCATION / CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+
+        <div class="section-title">
+          <div
+            class="eyebrow"
+            style="background:rgba(34,197,94,.12);color:#86efac;"
+          >
+            📍 Contact & Location
+          </div>
+
+          <h2>
+            दुकान से संपर्क करें
+          </h2>
+
+          <p style="color:#94a3b8;">
+            सिट पार्क, खोड़ा कॉलोनी में CNG Pump के पास
+            और Welding वाले के पास स्थित है।
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info">
+
+            <h3>
+              विशाल ई-रिक्शा रिपेयरिंग सेंटर
+            </h3>
+
+            <div class="contact-line">
+              <div class="icon">👤</div>
+              <div>
+                <small>Owner</small>
+                <strong>Vishal</strong>
+              </div>
+            </div>
+
+            <div class="contact-line">
+              <div class="icon">📞</div>
+              <div>
+                <small>Phone</small>
+                <strong>
+                  <a href="tel:+918376959144">
+                    8376959144
+                  </a>
+                </strong>
+              </div>
+            </div>
+
+            <div class="contact-line">
+              <div class="icon">📍</div>
+              <div>
+                <small>Address</small>
+                <strong>
+                  Sit Park, Khoda Colony,
+                  Near CNG Pump,
+                  Welding Shop के पास,
+                  Uttar Pradesh, India
+                </strong>
+              </div>
+            </div>
+
+            <div class="notice">
+              दुकान के exact opening hours अभी configured नहीं हैं।
+              कृपया समय के लिए फोन करें।
+            </div>
+
+            <div class="contact-actions">
+              <button class="btn btn-primary" onclick="callShop()">
+                📞 Call Now
+              </button>
+
+              <button class="btn btn-whatsapp" onclick="whatsappShop()">
+                💬 WhatsApp
+              </button>
+
+              <button class="btn btn-yellow" onclick="getDirections()">
+                📍 Get Directions
+              </button>
+
+              <button class="btn btn-light" onclick="scrollToOrder()">
+                ✉️ Send Enquiry
+              </button>
+            </div>
+
+          </div>
+
+          <div class="map-placeholder">
+
+            <div>
+              <div class="map-pin">📍</div>
+
+              <h3>
+                Google Maps Location
+              </h3>
+
+              <p style="color:#94a3b8;margin:10px auto 20px;max-width:430px;">
+                Exact Google Maps location/coordinates जानबूझकर
+                fabricate नहीं किए गए हैं।
+                Admin panel में बाद में exact Maps URL configure किया जा सकता है।
+              </p>
+
+              <button class="btn btn-primary" onclick="getDirections()">
+                Google Maps पर रास्ता देखें
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER REQUEST -->
+    <section id="order" class="section">
+      <div class="container">
+
+        <div class="section-title">
+          <div class="eyebrow">🛒 Order Request</div>
+
+          <h2>
+            Part / Repair Enquiry भेजें
+          </h2>
+
+          <p>
+            Online payment की आवश्यकता नहीं है।
+            दुकान final price और availability confirm करेगी।
+          </p>
+        </div>
+
+        <div
+          style="
+            max-width:900px;
+            margin:auto;
+            background:white;
+            border:1px solid var(--gray-200);
+            padding:25px;
+            border-radius:22px;
+            box-shadow:var(--shadow);
+          "
+        >
+
+          <form id="orderForm" onsubmit="submitOrder(event)">
+
+            <div class="form-grid">
+
+              <div class="form-group">
+                <label for="customerName">
+                  Customer Name *
+                </label>
+
+                <input
+                  id="customerName"
+                  class="field"
+                  required
+                  placeholder="अपना नाम"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="customerPhone">
+                  Mobile Number *
+                </label>
+
+                <input
+                  id="customerPhone"
+                  class="field"
+                  required
+                  inputmode="numeric"
+                  pattern="[0-9]{10}"
+                  placeholder="10 digit mobile number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="customerWhatsapp">
+                  WhatsApp Number
+                </label>
+
+                <input
+                  id="customerWhatsapp"
+                  class="field"
+                  inputmode="numeric"
+                  placeholder="WhatsApp number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="productName">
+                  Product / Part *
+                </label>
+
+                <input
+                  id="productName"
+                  class="field"
+                  required
+                  placeholder="Motor, Controller, Throttle..."
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="quantity">
+                  Required Quantity
+                </label>
+
+                <input
+                  id="quantity"
+                  class="field"
+                  type="number"
+                  min="1"
+                  value="1"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="vehicleType">
+                  Vehicle Type
+                </label>
+
+                <select id="vehicleType" class="select">
+                  <option value="">Select</option>
+                  <option>E-Rickshaw</option>
+                  <option>E-Scooty</option>
+                  <option>Other EV</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="vehicleModel">
+                  Vehicle Model
+                </label>
+
+                <input
+                  id="vehicleModel"
+                  class="field"
+                  placeholder="Vehicle model, if known"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contactMethod">
+                  Preferred Contact Method
+                </label>
+
+                <select id="contactMethod" class="select">
+                  <option>Phone</option>
+                  <option>WhatsApp</option>
+                  <option>Either</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label for="additionalDetails">
+                  Additional Details
+                </label>
+
+                <textarea
+                  id="additionalDetails"
+                  class="textarea"
+                  placeholder="अपनी समस्या या part की जानकारी लिखें..."
+                ></textarea>
+              </div>
+
+            </div>
+
+            <div class="form-actions">
+
+              <button
+                type="submit"
+                class="btn btn-primary"
+              >
+                Submit Order Request
+              </button>
+
+              <button
+                type="button"
+                class="btn btn-whatsapp"
+                onclick="sendOrderFormWhatsApp()"
+              >
+                Send via WhatsApp
+              </button>
+
+              <button
+                type="button"
+                class="btn btn-dark"
+                onclick="callShop()"
+              >
+                Call Shop
+              </button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+          <h3>
+            विशाल ई-रिक्शा रिपेयरिंग सेंटर
+          </h3>
+
+          <p>
+            Vishal E-Rickshaw Repairing Center
+          </p>
+
+          <p style="margin-top:10px;">
+            E-Rickshaw Repair |
+            E-Scooty Repair |
+            EV Spare Parts
+          </p>
+
+          <p style="margin-top:15px;">
+            📞
+            <a href="tel:+918376959144">
+              8376959144
+            </a>
+          </p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#order">Order Request</a>
+            <a href="#contact">Contact</a>
+            <a href="#" onclick="openTrackModal();return false;">
+              Track Order
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Location</h3>
+
+          <p>
+            Sit Park, Khoda Colony,
+            Near CNG Pump,
+            Welding Shop के पास,
+            Uttar Pradesh, India
+          </p>
+
+          <div style="margin-top:15px;">
+            <button class="btn btn-primary btn-sm" onclick="getDirections()">
+              📍 Get Directions
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        © <span id="currentYear"></span>
+        Vishal E-Rickshaw Repairing Center.
+        All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE BOTTOM NAV -->
+  <div class="bottom-nav">
+
+    <a href="#home">
+      <span>⌂</span>
+      Home
+    </a>
+
+    <a href="#products">
+      <span>🛒</span>
+      Parts
+    </a>
+
+    <button onclick="callShop()">
+      <span>📞</span>
+      Call
+    </button>
+
+    <button onclick="whatsappShop()">
+      <span>💬</span>
+      WhatsApp
+    </button>
+
+  </div>
+
+  <!-- TOAST -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- PRODUCT DETAIL MODAL -->
+  <div id="productModal" class="modal-overlay">
+
+    <div class="modal large">
+
+      <div class="modal-header">
+        <strong>Product Details</strong>
+
+        <button
+          class="close-btn"
+          onclick="closeModal('productModal')"
+        >
+          ×
+        </button>
+      </div>
+
+      <div class="modal-body" id="productDetailContent"></div>
+
+    </div>
+
+  </div>
+
+  <!-- CART MODAL -->
+  <div id="cartModal" class="modal-overlay">
+
+    <div class="modal">
+
+      <div class="modal-header">
+        <strong>🛒 Shopping Cart</strong>
+
+        <button
+          class="close-btn"
+          onclick="closeModal('cartModal')"
+        >
+          ×
+        </button>
+      </div>
+
+      <div class="modal-body" id="cartContent"></div>
+
+    </div>
+
+  </div>
+
+  <!-- TRACK MODAL -->
+  <div id="trackModal" class="modal-overlay">
+
+    <div class="modal">
+
+      <div class="modal-header">
+        <strong>📦 Track Order / Request</strong>
+
+        <button
+          class="close-btn"
+          onclick="closeModal('trackModal')"
+        >
+          ×
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <p style="color:var(--gray-500);margin-bottom:15px;">
+          अपनी Order/Request ID डालें।
+          उदाहरण: VEV-10001
+        </p>
+
+        <input
+          id="trackOrderInput"
+          class="field"
+          placeholder="VEV-10001"
+        />
+
+        <button
+          class="btn btn-primary"
+          style="margin-top:10px;width:100%;"
+          onclick="trackOrder()"
+        >
+          Track Request
+        </button>
+
+        <div id="trackResult" style="margin-top:15px;"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ADMIN LOGIN -->
+  <div id="adminLoginModal" class="modal-overlay">
+
+    <div class="modal">
+
+      <div class="modal-header">
+        <strong>🔐 Admin Login</strong>
+
+        <button
+          class="close-btn"
+          onclick="closeModal('adminLoginModal')"
+        >
+          ×
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="notice">
+          यह browser-only demo admin panel है।
+          Production में secure server-side authentication आवश्यक है।
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+
+          <input
+            id="adminPassword"
+            type="password"
+            class="field"
+            placeholder="Demo password"
+          />
+        </div>
+
+        <button
+          class="btn btn-primary"
+          style="margin-top:15px;width:100%;"
+          onclick="adminLogin()"
+        >
+          Login
+        </button>
+
+        <p style="font-size:12px;color:var(--gray-500);margin-top:12px;">
+          Demo password:
+          <strong>change-me</strong>
+          <br />
+          Production में इसे source code में नहीं रखना चाहिए।
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ADMIN PANEL -->
+  <div id="adminModal" class="modal-overlay">
+
+    <div class="modal large">
+
+      <div class="modal-header">
+
+        <strong>
+          ⚙️ Admin Dashboard
+        </strong>
+
+        <button
+          class="close-btn"
+          onclick="closeModal('adminModal')"
+        >
+          ×
+        </button>
+
+      </div>
+
+      <div class="admin-layout">
+
+        <aside class="admin-sidebar">
+
+          <button
+            class="active"
+            onclick="adminTab('dashboard',this)"
+          >
+            Dashboard
+          </button>
+
+          <button
+            onclick="adminTab('products',this)"
+          >
+            Products
+          </button>
+
+          <button
+            onclick="adminTab('orders',this)"
+          >
+            Orders
+          </button>
+
+          <button
+            onclick="adminTab('settings',this)"
+          >
+            Business Settings
+          </button>
+
+        </aside>
+
+        <main class="admin-main">
+
+          <div id="adminDashboardTab">
+            <h2>Dashboard</h2>
+
+            <div
+              id="adminStats"
+              class="admin-cards"
+              style="margin-top:15px;"
+            ></div>
+
+            <div id="adminRecentOrders"></div>
+          </div>
+
+          <div id="adminProductsTab" class="hidden">
+
+            <div
+              style="
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                gap:10px;
+                margin-bottom:15px;
+              "
+            >
+              <h2>Products</h2>
+
+              <button
+                class="btn btn-primary btn-sm"
+                onclick="openProductEditor()"
+              >
+                + Add Product
+              </button>
+            </div>
+
+            <div id="adminProductList"></div>
+
+          </div>
+
+          <div id="adminOrdersTab" class="hidden">
+
+            <h2 style="margin-bottom:15px;">
+              Orders / Requests
+            </h2>
+
+            <div id="adminOrderList"></div>
+
+          </div>
+
+          <div id="adminSettingsTab" class="hidden">
+
+            <h2>Business Settings</h2>
+
+            <form
+              onsubmit="saveBusinessSettings(event)"
+              style="margin-top:15px;"
+            >
+
+              <div class="form-grid">
+
+                <div class="form-group">
+                  <label>Business Name</label>
+
+                  <input
+                    id="settingBusinessName"
+                    class="field"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>Owner</label>
+
+                  <input
+                    id="settingOwner"
+                    class="field"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>Phone</label>
+
+                  <input
+                    id="settingPhone"
+                    class="field"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>WhatsApp</label>
+
+                  <input
+                    id="settingWhatsapp"
+                    class="field"
+                  />
+                </div>
+
+                <div class="form-group full">
+                  <label>Address</label>
+
+                  <textarea
+                    id="settingAddress"
+                    class="textarea"
+                  ></textarea>
+                </div>
+
+                <div class="form-group full">
+                  <label>Google Maps URL</label>
+
+                  <input
+                    id="settingMaps"
+                    class="field"
+                    placeholder="Paste exact Google Maps URL later"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>Opening Time</label>
+
+                  <input
+                    id="settingOpening"
+                    class="field"
+                    placeholder="Not configured"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>Closing Time</label>
+
+                  <input
+                    id="settingClosing"
+                    class="field"
+                    placeholder="Not configured"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>Weekly Off</label>
+
+                  <input
+                    id="settingOff"
+                    class="field"
+                    placeholder="Not configured"
+                  />
+                </div>
+
+              </div>
+
+              <button
+                class="btn btn-primary"
+                style="margin-top:15px;"
+              >
+                Save Settings
+              </button>
+
+            </form>
+
+          </div>
+
+        </main>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- PRODUCT EDITOR -->
+  <div id="productEditorModal" class="modal-overlay">
+
+    <div class="modal">
+
+      <div class="modal-header">
+
+        <strong>
+          Product Editor
+        </strong>
+
+        <button
+          class="close-btn"
+          onclick="closeModal('productEditorModal')"
+        >
+          ×
+        </button>
+
+      </div>
+
+      <div class="modal-body">
+
+        <form onsubmit="saveProduct(event)">
+
+          <input
+            type="hidden"
+            id="editProductId"
+          />
+
+          <div class="form-grid">
+
+            <div class="form-group">
+              <label>Product Name</label>
+
+              <input
+                id="editProductName"
+                class="field"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Category</label>
+
+              <input
+                id="editProductCategory"
+                class="field"
+                required
+              />
+            </div>
+
+            <div class="form-group full">
+              <label>Description</label>
+
+              <textarea
+                id="editProductDescription"
+                class="textarea"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Price</label>
+
+              <input
+                id="editProductPrice"
+                class="field"
+                placeholder="Price on Request"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Availability</label>
+
+              <input
+                id="editProductAvailability"
+                class="field"
+                value="Contact Shop"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Icon / Image Emoji</label>
+
+              <input
+                id="editProductIcon"
+                class="field"
+                placeholder="⚡"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Demo Product?</label>
+
+              <select id="editProductDemo" class="select">
+                <option value="true">Yes — Sample/Demo</option>
+                <option value="false">No</option>
+              </select>
+            </div>
+
+          </div>
+
+          <button
+            class="btn btn-primary"
+            style="margin-top:15px;"
+          >
+            Save Product
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    /* =========================================================
+       VISHAL E-RICKSHAW REPAIRING CENTER
+       Single-file frontend application
+       ========================================================= */
+
+    const PHONE = "8376959144";
+    const WHATSAPP = "918376959144";
+
+    const defaultServices = [
+      {
+        id: 1,
+        icon: "🛺",
+        name: "E-Rickshaw Repair",
+        description:
+          "Complete E-Rickshaw repair and maintenance."
+      },
+      {
+        id: 2,
+        icon: "🛵",
+        name: "E-Scooty Repair",
+        description:
+          "Electric scooter repair and troubleshooting."
+      },
+      {
+        id: 3,
+        icon: "⚙️",
+        name: "Motor Repair",
+        description:
+          "Electric motor checking, repair and replacement."
+      },
+      {
+        id: 4,
+        icon: "🧠",
+        name: "Controller Service",
+        description:
+          "Controller diagnosis, replacement and related electrical work."
+      },
+      {
+        id: 5,
+        icon: "🎚️",
+        name: "Throttle Replacement",
+        description:
+          "Throttle checking and replacement."
+      },
+      {
+        id: 6,
+        icon: "🔐",
+        name: "Lock & Ignition",
+        description:
+          "E-Rickshaw/e-scooty locks and ignition-related parts."
+      },
+      {
+        id: 7,
+        icon: "🔌",
+        name: "Wiring & Electrical",
+        description:
+          "Complete EV wiring and electrical troubleshooting."
+      },
+      {
+        id: 8,
+        icon: "🔋",
+        name: "Spare Parts",
+        description:
+          "Different types of E-Rickshaw and EV spare parts."
+      }
+    ];
+
+    const defaultProducts = [
+      {
+        id: "demo-1",
+        name: "E-Rickshaw Motor",
+        category: "Motors",
+        description:
+          "Sample / Demo — Replace with actual motor information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "⚙️",
+        demo: true
+      },
+      {
+        id: "demo-2",
+        name: "E-Rickshaw Controller",
+        category: "Controllers",
+        description:
+          "Sample / Demo — Replace with actual controller information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🧠",
+        demo: true
+      },
+      {
+        id: "demo-3",
+        name: "E-Rickshaw Throttle",
+        category: "Throttles",
+        description:
+          "Sample / Demo — Replace with actual throttle information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🎚️",
+        demo: true
+      },
+      {
+        id: "demo-4",
+        name: "E-Rickshaw Lock",
+        category: "Locks",
+        description:
+          "Sample / Demo — Replace with actual lock information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🔐",
+        demo: true
+      },
+      {
+        id: "demo-5",
+        name: "E-Rickshaw Wiring Set",
+        category: "Wiring & Electrical Parts",
+        description:
+          "Sample / Demo — Replace with actual wiring information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🔌",
+        demo: true
+      },
+      {
+        id: "demo-6",
+        name: "DC Converter",
+        category: "DC Converters",
+        description:
+          "Sample / Demo — Replace with actual converter information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "⚡",
+        demo: true
+      },
+      {
+        id: "demo-7",
+        name: "EV Charger",
+        category: "Chargers",
+        description:
+          "Sample / Demo — Replace with actual charger information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🔋",
+        demo: true
+      },
+      {
+        id: "demo-8",
+        name: "Brake Switch",
+        category: "Brake Parts",
+        description:
+          "Sample / Demo — Replace with actual brake part information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🛑",
+        demo: true
+      },
+      {
+        id: "demo-9",
+        name: "Headlight",
+        category: "Lights",
+        description:
+          "Sample / Demo — Replace with actual headlight information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "💡",
+        demo: true
+      },
+      {
+        id: "demo-10",
+        name: "Indicator",
+        category: "Indicators",
+        description:
+          "Sample / Demo — Replace with actual indicator information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "🔆",
+        demo: true
+      },
+      {
+        id: "demo-11",
+        name: "Horn",
+        category: "Horns",
+        description:
+          "Sample / Demo — Replace with actual horn information.",
+        price: "Price on Request",
+        availability: "Contact Shop",
+        icon: "📢",
+        demo: true
+      },
+      {
+        id: "demo-12",
+        name: "EV battery Connector",
+        category: "Connectors",
+        description:
+          "Sample / Demo — Replace with actual connector information.",
+        price: "150-250 INR",
+        availability: "Available",
+        icon: "🔗",
+        demo: true
+      }
+    ];
+
+    const defaultSettings = {
+      businessName: "विशाल ई-रिक्शा रिपेयरिंग सेंटर",
+      owner: "Vishal",
+      phone: PHONE,
+      whatsapp: PHONE,
+      address:
+         "vishal e rickshaw reparing center khoda colony gaziabad uttar pradesh india",
+      mapsUrl: "",
+      opening: "",
+      closing: "",
+      weeklyOff: ""
+    };
+
+    let products = load("products", defaultProducts);
+    let orders = load("orders", []);
+    let cart = load("cart", []);
+    let settings = load("settings", defaultSettings);
+
+    /* =========================================================
+       LOCAL STORAGE
+       ========================================================= */
+
+    function load(key, fallback) {
+      try {
+        const value = localStorage.getItem("vishal_" + key);
+
+        if (!value) {
+          return JSON.parse(JSON.stringify(fallback));
+        }
+
+        return JSON.parse(value);
+      } catch (error) {
+        return JSON.parse(JSON.stringify(fallback));
+      }
+    }
+
+    function save(key, value) {
+      localStorage.setItem(
+        "vishal_" + key,
+        JSON.stringify(value)
+      );
+    }
+
+    /* =========================================================
+       INITIALIZATION
+       ========================================================= */
+
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      renderServices();
+      populateCategoryFilter();
+      renderProducts();
+      updateCartBadge();
+
+      window.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          document
+            .querySelectorAll(".modal-overlay.show")
+            .forEach(modal => modal.classList.remove("show"));
+        }
+      });
+
+      // Secret-ish demo admin access:
+      // Ctrl + Shift + A
+      document.addEventListener("keydown", event => {
+        if (
+          event.ctrlKey &&
+          event.shiftKey &&
+          event.key.toLowerCase() === "a"
+        ) {
+          openAdmin();
+        }
+      });
+    });
+
+    /* =========================================================
+       NAVIGATION
+       ========================================================= */
+
+    function toggleMobileMenu() {
+      document
+        .getElementById("mobileMenu")
+        .classList.toggle("open");
+    }
+
+    function closeMobileMenu() {
+      document
+        .getElementById("mobileMenu")
+        .classList.remove("open");
+    }
+
+    function scrollToOrder() {
+      document
+        .getElementById("order")
+        .scrollIntoView({ behavior: "smooth" });
+    }
+
+    /* =========================================================
+       CALL / WHATSAPP / MAP
+       ========================================================= */
+
+    function callShop() {
+      window.location.href = "tel:+" + "91" + PHONE;
+    }
+
+    function whatsappShop(customMessage) {
+      const message =
+        customMessage ||
+        `नमस्ते विशाल ई-रिक्शा रिपेयरिंग सेंटर,
+
+मुझे आपके यहाँ E-Rickshaw / EV repair या spare parts के बारे में जानकारी चाहिए।
+
+Product / Service:
+Quantity:
+Vehicle:
+My Name:
+My Phone:
+
+कृपया कीमत और उपलब्धता बताएं।`;
+
+      const url =
+        "https://wa.me/" +
+        WHATSAPP +
+        "?text=" +
+        encodeURIComponent(message);
+
+      window.open(url, "_blank");
+    }
+
+    function getDirections() {
+      if (settings.mapsUrl && settings.mapsUrl.trim()) {
+        window.open(settings.mapsUrl, "_blank");
+        return;
+      }
+
+      const query = encodeURIComponent(
+        "vishal e rickshaw reparing center khoda colony gaziabad uttar pradesh india"
+      );
+
+      window.open(
+        "https://www.google.com/maps/search/?api=1&query=" + query,
+        "_blank"
+      );
+    }
+
+    /* =========================================================
+       SERVICES
+       ========================================================= */
+
+    function renderServices() {
+      const grid = document.getElementById("serviceGrid");
+
+      grid.innerHTML = defaultServices.map(service => `
+        <article class="service-card">
+
+          <div class="service-icon">
+            ${service.icon}
+          </div>
+
+          <h3>${escapeHtml(service.name)}</h3>
+
+          <p>
+            ${escapeHtml(service.description)}
+          </p>
+
+          <div class="service-actions">
+
+            <button
+              class="btn btn-primary btn-sm"
+              onclick="serviceEnquiry('${escapeAttr(service.name)}')"
+            >
+              Enquire Now
+            </button>
+
+            <button
+              class="btn btn-light btn-sm"
+              onclick="callShop()"
+            >
+              📞
+            </button>
+
+          </div>
+
+        </article>
+      `).join("");
+    }
+
+    function serviceEnquiry(serviceName) {
+      document.getElementById("productName").value =
+        serviceName;
+
+      scrollToOrder();
+
+      setTimeout(() => {
+        document.getElementById("additionalDetails").focus();
+      }, 400);
+    }
+
+    /* =========================================================
+       PRODUCTS
+       ========================================================= */
+
+    function getCategories() {
+      return [
+        ...new Set(
+          products.map(product => product.category)
+        )
+      ].sort();
+    }
+
+    function populateCategoryFilter() {
+      const select =
+        document.getElementById("categoryFilter");
+
+      const current = select.value;
+
+      select.innerHTML =
+        `<option value="">All Categories</option>` +
+        getCategories()
+          .map(category =>
+            `<option value="${escapeAttr(category)}">
+              ${escapeHtml(category)}
+            </option>`
+          )
+          .join("");
+
+      select.value = current;
+    }
+
+    function renderCategoryChips() {
+      const container =
+        document.getElementById("categoryChips");
+
+      const active =
+        document.getElementById("categoryFilter").value;
+
+      container.innerHTML = `
+        <button
+          class="category-chip ${active === "" ? "active" : ""}"
+          onclick="setCategory('')"
+        >
+          All
+        </button>
+      `;
+
+      getCategories().forEach(category => {
+        container.innerHTML += `
+          <button
+            class="category-chip ${active === category ? "active" : ""}"
+            onclick="setCategory('${escapeAttr(category)}')"
+          >
+            ${escapeHtml(category)}
+          </button>
+        `;
+      });
+    }
+
+    function setCategory(category) {
+      document.getElementById("categoryFilter").value =
+        category;
+
+      renderProducts();
+    }
+
+    function renderProducts() {
+      populateCategoryFilter();
+      renderCategoryChips();
+
+      const query =
+        document
+          .getElementById("productSearch")
+          .value
+          .trim()
+          .toLowerCase();
+
+      const category =
+        document.getElementById("categoryFilter").value;
+
+      const availability =
+        document.getElementById("availabilityFilter").value;
+
+      const filtered = products.filter(product => {
+
+        const searchable =
+          [
+            product.name,
+            product.category,
+            product.description
+          ]
+            .join(" ")
+            .toLowerCase();
+
+        const matchesSearch =
+          !query ||
+          searchable.includes(query);
+
+        const matchesCategory =
+          !category ||
+          product.category === category;
+
+        const matchesAvailability =
+          !availability ||
+          availability === "contact";
+
+        return (
+          matchesSearch &&
+          matchesCategory &&
+          matchesAvailability
+        );
+      });
+
+      const grid =
+        document.getElementById("productGrid");
+
+      if (!filtered.length) {
+        grid.innerHTML = `
+          <div class="empty" style="grid-column:1/-1;">
+            <div style="font-size:40px;margin-bottom:10px;">
+              🔎
+            </div>
+
+            <strong>
+              इस समय matching product नहीं मिला।
+            </strong>
+
+            <p style="margin-top:5px;">
+              कृपया अलग search करें या दुकान से संपर्क करें।
+            </p>
+
+            <button
+              class="btn btn-primary"
+              style="margin-top:12px;"
+              onclick="callShop()"
+            >
+              📞 Call Shop
+            </button>
+          </div>
+        `;
+
+        return;
+      }
+
+      grid.innerHTML = filtered.map(product => `
+        <article class="product-card">
+
+          <div class="product-image">
+
+            ${
+              product.demo
+                ? `<div class="demo-tag">
+                    SAMPLE / DEMO
+                   </div>`
+                : ""
+            }
+
+            <div class="part-icon">
+              ${escapeHtml(product.icon || "⚡")}
+            </div>
+
+          </div>
+
+          <div class="product-body">
+
+            <div class="product-category">
+              ${escapeHtml(product.category)}
+            </div>
+
+            <h3>
+              ${escapeHtml(product.name)}
+            </h3>
+
+            <div class="product-desc">
+              ${escapeHtml(product.description)}
+            </div>
+
+            <div class="product-price">
+              ${escapeHtml(
+                product.price || "Price on Request"
+              )}
+            </div>
+
+            <div class="availability">
+              Availability:
+              ${escapeHtml(
+                product.availability || "Contact Shop"
+              )}
+            </div>
+
+            <div class="product-actions">
+
+              <button
+                class="btn btn-light btn-sm"
+                onclick="viewProduct('${escapeAttr(product.id)}')"
+              >
+                View
+              </button>
+
+              <button
+                class="btn btn-primary btn-sm"
+                onclick="addToCart('${escapeAttr(product.id)}')"
+              >
+                Add
+              </button>
+
+              <button
+                class="btn btn-dark btn-sm full"
+                onclick="productEnquiry('${escapeAttr(product.id)}')"
+              >
+                Order Request
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+      `).join("");
+    }
+
+    function resetFilters() {
+      document.getElementById("productSearch").value = "";
+      document.getElementById("categoryFilter").value = "";
+      document.getElementById("availabilityFilter").value = "";
+      renderProducts();
+    }
+
+    function viewProduct(id) {
+      const product =
+        products.find(item => item.id === id);
+
+      if (!product) {
+        toast("यह product उपलब्ध नहीं है।");
+        return;
+      }
+
+      const content =
+        document.getElementById("productDetailContent");
+
+      content.innerHTML = `
+        <div class="product-detail">
+
+          <div class="detail-image">
+            ${escapeHtml(product.icon || "⚡")}
+          </div>
+
+          <div class="detail-content">
+
+            ${
+              product.demo
+                ? `
+                  <div class="notice">
+                    Sample / Demo Product —
+                    Replace with actual product information.
+                  </div>
+                `
+                : ""
+            }
+
+            <div class="product-category">
+              ${escapeHtml(product.category)}
+            </div>
+
+            <h2>
+              ${escapeHtml(product.name)}
+            </h2>
+
+            <p style="color:var(--gray-500);">
+              ${escapeHtml(product.description)}
+            </p>
+
+            <div class="detail-price">
+              ${escapeHtml(
+                product.price || "Price on Request"
+              )}
+            </div>
+
+            <div class="availability">
+              Availability:
+              ${escapeHtml(
+                product.availability || "Contact Shop"
+              )}
+            </div>
+
+            <div class="spec-list">
+
+              <div>
+                <strong>Compatibility</strong>
+                <span>
+                  Please contact shop
+                </span>
+              </div>
+
+              <div>
+                <strong>Specifications</strong>
+                <span>
+                  Please contact shop
+                </span>
+              </div>
+
+              <div>
+                <strong>Brand</strong>
+                <span>
+                  Not specified
+                </span>
+              </div>
+
+            </div>
+
+            <div class="form-actions">
+
+              <button
+                class="btn btn-primary"
+                onclick="addToCart('${escapeAttr(product.id)}'); closeModal('productModal');"
+              >
+                🛒 Add to Cart
+              </button>
+
+              <button
+                class="btn btn-whatsapp"
+                onclick="productWhatsApp('${escapeAttr(product.id)}')"
+              >
+                WhatsApp Enquiry
+              </button>
+
+              <button
+                class="btn btn-dark"
+                onclick="productEnquiry('${escapeAttr(product.id)}'); closeModal('productModal');"
+              >
+                Order Request
+              </button>
+
+              <button
+                class="btn btn-light"
+                onclick="callShop()"
+              >
+                📞 Call Shop
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      `;
+
+      openModal("productModal");
+    }
+
+    function productEnquiry(id) {
+      const product =
+        products.find(item => item.id === id);
+
+      if (!product) return;
+
+      document.getElementById("productName").value =
+        product.name;
+
+      closeModal("productModal");
+
+      scrollToOrder();
+
+      setTimeout(() => {
+        document.getElementById("quantity").focus();
+      }, 400);
+    }
+
+    function productWhatsApp(id) {
+      const product =
+        products.find(item => item.id === id);
+
+      if (!product) return;
+
+      const message =
+        `नमस्ते विशाल ई-रिक्शा रिपेयरिंग सेंटर,
+
+मुझे आपके यहाँ उपलब्ध इस पार्ट के बारे में जानकारी चाहिए:
+
+Product: ${product.name}
+Quantity:
+Vehicle:
+My Name:
+My Phone:
+
+कृपया कीमत और उपलब्धता बताएं।`;
+
+      whatsappShop(message);
+    }
+
+    /* =========================================================
+       CART
+       ========================================================= */
+
+    function addToCart(id) {
+      const product =
+        products.find(item => item.id === id);
+
+      if (!product) return;
+
+      const existing =
+        cart.find(item => item.productId === id);
+
+      if (existing) {
+        existing.quantity += 1;
+      } else {
+        cart.push({
+          productId: id,
+          quantity: 1
+        });
+      }
+
+      save("cart", cart);
+      updateCartBadge();
+
+      toast(
+        `${product.name} cart में जोड़ दिया गया।`
+      );
+    }
+
+    function removeFromCart(id) {
+      cart =
+        cart.filter(item => item.productId !== id);
+
+      save("cart", cart);
+      updateCartBadge();
+      renderCart();
+    }
+
+    function changeCartQuantity(id, amount) {
+      const item =
+        cart.find(item => item.productId === id);
+
+      if (!item) return;
+
+      item.quantity += amount;
+
+      if (item.quantity <= 0) {
+        removeFromCart(id);
+        return;
+      }
+
+      save("cart", cart);
+      renderCart();
+    }
+
+    function updateCartBadge() {
+      const count =
+        cart.reduce(
+          (total, item) =>
+            total + item.quantity,
+          0
+        );
+
+      // Keep simple because header cart is an icon.
+      document
+        .querySelectorAll(".icon-btn")
+        .forEach(button => {
+          button.title =
+            `Cart (${count})`;
+        });
+    }
+
+    function openCart() {
+      renderCart();
+      openModal("cartModal");
+    }
+
+    function renderCart() {
+      const container =
+        document.getElementById("cartContent");
+
+      if (!cart.length) {
+        container.innerHTML = `
+          <div class="empty">
+            <div style="font-size:45px;">🛒</div>
+
+            <h3>Cart खाली है</h3>
+
+            <p>
+              Products browse करके Add पर click करें।
+            </p>
+
+            <button
+              class="btn btn-primary"
+              style="margin-top:12px;"
+              onclick="closeModal('cartModal'); document.getElementById('products').scrollIntoView({behavior:'smooth'});"
+            >
+              Browse Products
+            </button>
+          </div>
+        `;
+
+        return;
+      }
+
+      let totalItems = 0;
+
+      const rows = cart.map(item => {
+
+        const product =
+          products.find(
+            product => product.id === item.productId
+          );
+
+        if (!product) return "";
+
+        totalItems += item.quantity;
+
+        return `
+          <div
+            style="
+              display:grid;
+              grid-template-columns:55px 1fr auto;
+              gap:12px;
+              align-items:center;
+              padding:12px 0;
+              border-bottom:1px solid var(--gray-200);
+            "
+          >
+
+            <div
+              style="
+                width:55px;
+                height:55px;
+                display:grid;
+                place-items:center;
+                background:var(--gray-100);
+                border-radius:11px;
+                font-size:25px;
+              "
+            >
+              ${escapeHtml(product.icon || "⚡")}
+            </div>
+
+            <div>
+              <strong>
+                ${escapeHtml(product.name)}
+              </strong>
+
+              <div
+                style="
+                  color:var(--gray-500);
+                  font-size:12px;
+                "
+              >
+                ${escapeHtml(product.price || "Price on Request")}
+              </div>
+
+              <div
+                style="
+                  display:flex;
+                  align-items:center;
+                  gap:5px;
+                  margin-top:6px;
+                "
+              >
+
+                <button
+                  class="btn btn-light btn-sm"
+                  onclick="changeCartQuantity('${escapeAttr(product.id)}',-1)"
+                >
+                  −
+                </button>
+
+                <strong>
+                  ${item.quantity}
+                </strong>
+
+                <button
+                  class="btn btn-light btn-sm"
+                  onclick="changeCartQuantity('${escapeAttr(product.id)}',1)"
+                >
+                  +
+                </button>
+
+              </div>
+            </div>
+
+            <button
+              class="btn btn-danger btn-sm"
+              onclick="removeFromCart('${escapeAttr(product.id)}')"
+            >
+              Remove
+            </button>
+
+          </div>
+        `;
+      }).join("");
+
+      container.innerHTML = `
+        ${rows}
+
+        <div
+          style="
+            display:flex;
+            justify-content:space-between;
+            padding:18px 0;
+            font-weight:900;
+          "
+        >
+          <span>Total Items</span>
+          <span>${totalItems}</span>
+        </div>
+
+        <div class="notice">
+          Online payment is disabled.
+          Final price and availability will be confirmed by the shop.
+        </div>
+
+        <button
+          class="btn btn-primary"
+          style="width:100%;"
+          onclick="checkoutCart()"
+        >
+          Submit Order Request
+        </button>
+
+        <button
+          class="btn btn-whatsapp"
+          style="width:100%;margin-top:8px;"
+          onclick="cartWhatsApp()"
+        >
+          WhatsApp Order
+        </button>
+      `;
+    }
+
+    function checkoutCart() {
+      closeModal("cartModal");
+
+      if (!cart.length) {
+        toast("Cart खाली है।");
+        return;
+      }
+
+      const names = cart
+        .map(item => {
+          const product =
+            products.find(
+              p => p.id === item.productId
+            );
+
+          return product
+            ? `${product.name} x ${item.quantity}`
+            : "";
+        })
+        .filter(Boolean)
+        .join(", ");
+
+      document.getElementById("productName").value =
+        names;
+
+      scrollToOrder();
+    }
+
+    function cartWhatsApp() {
+      if (!cart.length) {
+        toast("Cart खाली है।");
+        return;
+      }
+
+      const items = cart
+        .map(item => {
+          const product =
+            products.find(
+              p => p.id === item.productId
+            );
+
+          return product
+            ? `${product.name} x ${item.quantity}`
+            : "";
+        })
+        .filter(Boolean)
+        .join("\n");
+
+      const message =
+        `नमस्ते विशाल ई-रिक्शा रिपेयरिंग सेंटर,
+
+मुझे इन products के बारे में जानकारी चाहिए:
+
+${items}
+
+My Name:
+My Phone:
+
+कृपया कीमत और availability बताएं।`;
+
+      whatsappShop(message);
+    }
+
+    /* =========================================================
+       ORDER SYSTEM
+       ========================================================= */
+
+    function generateOrderId() {
+      const number =
+        10001 + orders.length;
+
+      return "VEV-" + number;
+    }
+
+    function submitOrder(event) {
+      event.preventDefault();
+
+      const name =
+        document.getElementById("customerName").value.trim();
+
+      const phone =
+        document.getElementById("customerPhone").value.trim();
+
+      const whatsapp =
+        document.getElementById("customerWhatsapp").value.trim();
+
+      const product =
+        document.getElementById("productName").value.trim();
+
+      const quantity =
+        document.getElementById("quantity").value || "1";
+
+      const vehicleType =
+        document.getElementById("vehicleType").value;
+
+      const vehicleModel =
+        document.getElementById("vehicleModel").value.trim();
+
+      const contactMethod =
+        document.getElementById("contactMethod").value;
+
+      const details =
+        document.getElementById("additionalDetails").value.trim();
+
+      if (!/^[0-9]{10}$/.test(phone)) {
+        toast("कृपया सही 10 digit mobile number डालें।");
+        return;
+      }
+
+      const order = {
+        id: generateOrderId(),
+        createdAt: new Date().toISOString(),
+        customer: {
+          name,
+          phone,
+          whatsapp,
+          vehicleType,
+          vehicleModel
+        },
+        product,
+        quantity,
+        details,
+        contactMethod,
+        status: "New"
+      };
+
+      orders.push(order);
+
+      save("orders", orders);
+
+      cart = [];
+      save("cart", cart);
+      updateCartBadge();
+
+      document
+        .getElementById("orderForm")
+        .reset();
+
+      showOrderConfirmation(order);
+    }
+
+    function showOrderConfirmation(order) {
+      document.getElementById("trackResult").innerHTML = "";
+
+      toast(
+        `Order Request ${order.id} प्राप्त हो गई।`
+      );
+
+      alert(
+        `आपकी Order Request प्राप्त हो गई है।
+
+Request ID: ${order.id}
+
+विशाल ई-रिक्शा रिपेयरिंग सेंटर की टीम आपसे जल्द संपर्क करेगी।`
+      );
+    }
+
+    function sendOrderFormWhatsApp() {
+      const name =
+        document.getElementById("customerName").value.trim();
+
+      const phone =
+        document.getElementById("customerPhone").value.trim();
+
+      const product =
+        document.getElementById("productName").value.trim();
+
+      const quantity =
+        document.getElementById("quantity").value;
+
+      const vehicle =
+        document.getElementById("vehicleType").value;
+
+      const details =
+        document.getElementById("additionalDetails").value.trim();
+
+      const message =
+        `नमस्ते विशाल ई-रिक्शा रिपेयरिंग सेंटर,
+
+मुझे आपके यहाँ उपलब्ध इस पार्ट/सेवा के बारे में जानकारी चाहिए:
+
+Product / Service: ${product || "-"}
+Quantity: ${quantity || "-"}
+Vehicle: ${vehicle || "-"}
+My Name: ${name || "-"}
+My Phone: ${phone || "-"}
+
+Additional Details:
+${details || "-"}
+
+कृपया कीमत और उपलब्धता बताएं।`;
+
+      whatsappShop(message);
+    }
+
+    /* =========================================================
+       TRACK ORDER
+       ========================================================= */
+
+    function openTrackModal() {
+      openModal("trackModal");
+    }
+
+    function trackOrder() {
+      const id =
+        document
+          .getElementById("trackOrderInput")
+          .value
+          .trim()
+          .toUpperCase();
+
+      const result =
+        document.getElementById("trackResult");
+
+      if (!id) {
+        result.innerHTML = `
+          <div class="notice">
+            कृपया Request ID डालें।
+          </div>
+        `;
+        return;
+      }
+
+      const order =
+        orders.find(item => item.id === id);
+
+      if (!order) {
+        result.innerHTML = `
+          <div class="notice">
+            Request ID नहीं मिली।
+            कृपया ID check करें या दुकान पर फोन करें।
+          </div>
+        `;
+
+        return;
+      }
+
+      result.innerHTML = `
+        <div
+          style="
+            background:var(--gray-50);
+            padding:15px;
+            border-radius:13px;
+            border:1px solid var(--gray-200);
+          "
+        >
+
+          <strong>
+            ${escapeHtml(order.id)}
+          </strong>
+
+          <div style="margin-top:8px;">
+            Status:
+            <span class="status">
+              ${escapeHtml(order.status)}
+            </span>
+          </div>
+
+          <div style="margin-top:8px;">
+            Product:
+            ${escapeHtml(order.product)}
+          </div>
+
+          <div style="margin-top:8px;">
+            Quantity:
+            ${escapeHtml(String(order.quantity))}
+          </div>
+
+          <div style="margin-top:8px;">
+            Customer:
+            ${escapeHtml(order.customer.name)}
+          </div>
+
+        </div>
+      `;
+    }
+
+    /* =========================================================
+       FAQ
+       ========================================================= */
+
+    function toggleFaq(button) {
+      const faq =
+        button.parentElement;
+
+      faq.classList.toggle("open");
+
+      const symbol =
+        button.querySelector("span");
+
+      symbol.textContent =
+        faq.classList.contains("open")
+          ? "−"
+          : "＋";
+    }
+
+    /* =========================================================
+       MODALS
+       ========================================================= */
+
+    function openModal(id) {
+      document
+        .getElementById(id)
+        .classList.add("show");
+    }
+
+    function closeModal(id) {
+      document
+        .getElementById(id)
+        .classList.remove("show");
+    }
+
+    document
+      .querySelectorAll(".modal-overlay")
+      .forEach(overlay => {
+        overlay.addEventListener("click", event => {
+          if (event.target === overlay) {
+            overlay.classList.remove("show");
+          }
+        });
+      });
+
+    /* =========================================================
+       ADMIN
+       ========================================================= */
+
+    function openAdmin() {
+      openModal("adminLoginModal");
+    }
+
+    function adminLogin() {
+      const password =
+        document.getElementById("adminPassword").value;
+
+      if (password !== "change-me") {
+        toast("Invalid demo password.");
+        return;
+      }
+
+      closeModal("adminLoginModal");
+      openModal("adminModal");
+      loadAdminDashboard();
+    }
+
+    function loadAdminDashboard() {
+      renderAdminDashboard();
+      renderAdminProducts();
+      renderAdminOrders();
+      loadSettingsForm();
+    }
+
+    function adminTab(tab, button) {
+
+      document
+        .querySelectorAll(".admin-sidebar button")
+        .forEach(item => item.classList.remove("active"));
+
+      button.classList.add("active");
+
+      document
+        .getElementById("adminDashboardTab")
+        .classList.add("hidden");
+
+      document
+        .getElementById("adminProductsTab")
+        .classList.add("hidden");
+
+      document
+        .getElementById("adminOrdersTab")
+        .classList.add("hidden");
+
+      document
+        .getElementById("adminSettingsTab")
+        .classList.add("hidden");
+
+      const map = {
+        dashboard: "adminDashboardTab",
+        products: "adminProductsTab",
+        orders: "adminOrdersTab",
+        settings: "adminSettingsTab"
+      };
+
+      document
+        .getElementById(map[tab])
+        .classList.remove("hidden");
+
+      loadAdminDashboard();
+    }
+
+    function renderAdminDashboard() {
+      const stats =
+        document.getElementById("adminStats");
+
+      const newOrders =
+        orders.filter(
+          order => order.status === "New"
+        ).length;
+
+      stats.innerHTML = `
+        <div class="admin-card">
+          <span>Products</span>
+          <strong>${products.length}</strong>
+        </div>
+
+        <div class="admin-card">
+          <span>Total Requests</span>
+          <strong>${orders.length}</strong>
+        </div>
+
+        <div class="admin-card">
+          <span>New Requests</span>
+          <strong>${newOrders}</strong>
+        </div>
+      `;
+
+      const recent =
+        document.getElementById("adminRecentOrders");
+
+      const latest =
+        [...orders]
+          .reverse()
+          .slice(0,5);
+
+      if (!latest.length) {
+        recent.innerHTML = `
+          <div class="empty">
+            अभी कोई order/request नहीं है।
+          </div>
+        `;
+
+        return;
+      }
+
+      recent.innerHTML = `
+        <h3 style="margin-bottom:10px;">
+          Recent Requests
+        </h3>
+
+        <div style="overflow:auto;">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              ${latest.map(order => `
+                <tr>
+                  <td>${escapeHtml(order.id)}</td>
+                  <td>${escapeHtml(order.customer.name)}</td>
+                  <td>${escapeHtml(order.product)}</td>
+                  <td>
+                    <span class="status">
+                      ${escapeHtml(order.status)}
+                    </span>
+                  </td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function renderAdminProducts() {
+      const container =
+        document.getElementById("adminProductList");
+
+      container.innerHTML = `
+        <div style="overflow:auto;">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Demo</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              ${products.map(product => `
+                <tr>
+
+                  <td>
+                    ${escapeHtml(product.icon || "⚡")}
+                    ${escapeHtml(product.name)}
+                  </td>
+
+                  <td>
+                    ${escapeHtml(product.category)}
+                  </td>
+
+                  <td>
+                    ${escapeHtml(product.price || "Price on Request")}
+                  </td>
+
+                  <td>
+                    ${
+                      product.demo
+                        ? "Yes"
+                        : "No"
+                    }
+                  </td>
+
+                  <td>
+                    <div style="display:flex;gap:5px;">
+
+                      <button
+                        class="btn btn-light btn-sm"
+                        onclick="openProductEditor('${escapeAttr(product.id)}')"
+                      >
+                        Edit
+                      </button>
+
+                      <button
+                        class="btn btn-danger btn-sm"
+                        onclick="deleteProduct('${escapeAttr(product.id)}')"
+                      >
+                        Delete
+                      </button>
+
+                    </div>
+                  </td>
+
+                </tr>
+              `).join("")}
+            </tbody>
+
+          </table>
+        </div>
+      `;
+    }
+
+    function renderAdminOrders() {
+      const container =
+        document.getElementById("adminOrderList");
+
+      if (!orders.length) {
+        container.innerHTML = `
+          <div class="empty">
+            अभी कोई orders/requests नहीं हैं।
+          </div>
+        `;
+
+        return;
+      }
+
+      container.innerHTML = `
+        <div style="overflow:auto;">
+          <table class="admin-table">
+
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Phone</th>
+                <th>Product</th>
+                <th>Qty</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              ${[...orders].reverse().map(order => `
+                <tr>
+
+                  <td>
+                    <strong>
+                      ${escapeHtml(order.id)}
+                    </strong>
+                  </td>
+
+                  <td>
+                    ${escapeHtml(order.customer.name)}
+                  </td>
+
+                  <td>
+                    <a
+                      href="tel:+91${escapeAttr(order.customer.phone)}"
+                    >
+                      ${escapeHtml(order.customer.phone)}
+                    </a>
+                  </td>
+
+                  <td>
+                    ${escapeHtml(order.product)}
+                  </td>
+
+                  <td>
+                    ${escapeHtml(String(order.quantity))}
+                  </td>
+
+                  <td>
+                    <select
+                      class="select"
+                      onchange="updateOrderStatus('${escapeAttr(order.id)}',this.value)"
+                    >
+                      ${[
+                        "New",
+                        "Contacted",
+                        "Confirmed",
+                        "Ready",
+                        "Completed",
+                        "Cancelled"
+                      ].map(status => `
+                        <option
+                          ${
+                            order.status === status
+                              ? "selected"
+                              : ""
+                          }
+                        >
+                          ${status}
+                        </option>
+                      `).join("")}
+                    </select>
+                  </td>
+
+                  <td>
+                    <button
+                      class="btn btn-whatsapp btn-sm"
+                      onclick="orderWhatsApp('${escapeAttr(order.id)}')"
+                    >
+                      WhatsApp
+                    </button>
+                  </td>
+
+                </tr>
+              `).join("")}
+
+            </tbody>
+
+          </table>
+        </div>
+      `;
+    }
+
+    function updateOrderStatus(id, status) {
+      const order =
+        orders.find(item => item.id === id);
+
+      if (!order) return;
+
+      order.status = status;
+
+      save("orders", orders);
+
+      renderAdminDashboard();
+      renderAdminOrders();
+
+      toast(
+        `${id} status updated to ${status}.`
+      );
+    }
+
+    function orderWhatsApp(id) {
+      const order =
+        orders.find(item => item.id === id);
+
+      if (!order) return;
+
+      const message =
+        `नमस्ते ${order.customer.name},
+
+आपकी request ${order.id} के संबंध में विशाल ई-रिक्शा रिपेयरिंग सेंटर से संपर्क किया जा रहा है।
+
+Product:
+${order.product}
+
+Quantity:
+${order.quantity}
+
+Current Status:
+${order.status}
+
+धन्यवाद।`;
+
+      whatsappShop(message);
+    }
+
+    /* =========================================================
+       PRODUCT ADMIN
+       ========================================================= */
+
+    function openProductEditor(id = "") {
+
+      document.getElementById("editProductId").value = id;
+
+      if (!id) {
+        document.getElementById("editProductName").value = "";
+        document.getElementById("editProductCategory").value = "";
+        document.getElementById("editProductDescription").value = "";
+        document.getElementById("editProductPrice").value =
+          "Price on Request";
+        document.getElementById("editProductAvailability").value =
+          "Contact Shop";
+        document.getElementById("editProductIcon").value = "⚡";
+        document.getElementById("editProductDemo").value = "true";
+
+        openModal("productEditorModal");
+        return;
+      }
+
+      const product =
+        products.find(item => item.id === id);
+
+      if (!product) return;
+
+      document.getElementById("editProductName").value =
+        product.name;
+
+      document.getElementById("editProductCategory").value =
+        product.category;
+
+      document.getElementById("editProductDescription").value =
+        product.description;
+
+      document.getElementById("editProductPrice").value =
+        product.price;
+
+      document.getElementById("editProductAvailability").value =
+        product.availability;
+
+      document.getElementById("editProductIcon").value =
+        product.icon || "⚡";
+
+      document.getElementById("editProductDemo").value =
+        product.demo ? "true" : "false";
+
+      openModal("productEditorModal");
+    }
+
+    function saveProduct(event) {
+      event.preventDefault();
+
+      const id =
+        document.getElementById("editProductId").value;
+
+      const productData = {
+        id:
+          id ||
+          "product-" +
+          Date.now(),
+
+        name:
+          document
+            .getElementById("editProductName")
+            .value
+            .trim(),
+
+        category:
+          document
+            .getElementById("editProductCategory")
+            .value
+            .trim(),
+
+        description:
+          document
+            .getElementById("editProductDescription")
+            .value
+            .trim(),
+
+        price:
+          document
+            .getElementById("editProductPrice")
+            .value
+            .trim() ||
+          "Price on Request",
+
+        availability:
+          document
+            .getElementById("editProductAvailability")
+            .value
+            .trim() ||
+          "Contact Shop",
+
+        icon:
+          document
+            .getElementById("editProductIcon")
+            .value
+            .trim() ||
+          "⚡",
+
+        demo:
+          document
+            .getElementById("editProductDemo")
+            .value === "true"
+      };
+
+      if (id) {
+        const index =
+          products.findIndex(
+            product => product.id === id
+          );
+
+        if (index !== -1) {
+          products[index] = productData;
+        }
+      } else {
+        products.push(productData);
+      }
+
+      save("products", products);
+
+      closeModal("productEditorModal");
+
+      populateCategoryFilter();
+      renderProducts();
+      renderAdminProducts();
+
+      toast("Product saved successfully.");
+    }
+
+    function deleteProduct(id) {
+      const product =
+        products.find(item => item.id === id);
+
+      if (!product) return;
+
+      const confirmed =
+        confirm(
+          `Delete "${product.name}"?`
+        );
+
+      if (!confirmed) return;
+
+      products =
+        products.filter(
+          item => item.id !== id
+        );
+
+      save("products", products);
+
+      populateCategoryFilter();
+      renderProducts();
+      renderAdminProducts();
+
+      toast("Product deleted.");
+    }
+
+    /* =========================================================
+       SETTINGS
+       ========================================================= */
+
+    function loadSettingsForm() {
+      document.getElementById("settingBusinessName").value =
+        settings.businessName || "";
+
+      document.getElementById("settingOwner").value =
+        settings.owner || "";
+
+      document.getElementById("settingPhone").value =
+        settings.phone || "";
+
+      document.getElementById("settingWhatsapp").value =
+        settings.whatsapp || "";
+
+      document.getElementById("settingAddress").value =
+        settings.address || "";
+
+      document.getElementById("settingMaps").value =
+        settings.mapsUrl || "";
+
+      document.getElementById("settingOpening").value =
+        settings.opening || "";
+
+      document.getElementById("settingClosing").value =
+        settings.closing || "";
+
+      document.getElementById("settingOff").value =
+        settings.weeklyOff || "";
+    }
+
+    function saveBusinessSettings(event) {
+      event.preventDefault();
+
+      settings = {
+        businessName:
+          document
+            .getElementById("settingBusinessName")
+            .value
+            .trim(),
+
+        owner:
+          document
+            .getElementById("settingOwner")
+            .value
+            .trim(),
+
+        phone:
+          document
+            .getElementById("settingPhone")
+            .value
+            .trim(),
+
+        whatsapp:
+          document
+            .getElementById("settingWhatsapp")
+            .value
+            .trim(),
+
+        address:
+          document
+            .getElementById("settingAddress")
+            .value
+            .trim(),
+
+        mapsUrl:
+          document
+            .getElementById("settingMaps")
+            .value
+            .trim(),
+
+        opening:
+          document
+            .getElementById("settingOpening")
+            .value
+            .trim(),
+
+        closing:
+          document
+            .getElementById("settingClosing")
+            .value
+            .trim(),
+
+        weeklyOff:
+          document
+            .getElementById("settingOff")
+            .value
+            .trim()
+      };
+
+      save("settings", settings);
+
+      toast("Business settings saved.");
+    }
+
+    /* =========================================================
+       UTILITIES
+       ========================================================= */
+
+    function toast(message) {
+      const container =
+        document.getElementById("toastContainer");
+
+      const item =
+        document.createElement("div");
+
+      item.className = "toast";
+      item.textContent = message;
+
+      container.appendChild(item);
+
+      setTimeout(() => {
+        item.remove();
+      }, 3500);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function escapeAttr(value) {
+      return String(value ?? "")
+        .replace(/\\/g, "\\\\")
+        .replace(/'/g, "\\'");
+    }
+
+    /* =========================================================
+       CONSOLE INFORMATION
+       ========================================================= */
+
+    console.log(
+      "%cVishal E-Rickshaw Repairing Center",
+      "color:#16a34a;font-size:20px;font-weight:bold;"
+    );
+
+    console.log(
+      "Admin demo: press Ctrl + Shift + A"
+    );
+  </script>
+
+</body>
+</html>
